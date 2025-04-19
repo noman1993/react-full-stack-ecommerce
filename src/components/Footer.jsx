@@ -9,15 +9,33 @@ const Footer = () => {
           <img src={assets.logo} className="mb-5 w-32 " alt="" />
           <p className="w-full md:w-2/3 text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            voluptas dignissimos odio, possimus quidem doloribus?
+            voluptas dignissimos odio, possimus quidem doloribus?Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Incidunt expedita
+            reiciendis suscipit rerum consectetur delectus.
           </p>
         </div>
         <div>
           <p className="text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-
+            <li>Home</li>
+            <li>About</li>
+            <li>Delivery</li>
+            <li>Privacy Policy</li>
           </ul>
         </div>
+        <div>
+          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <ul className="flex flex-col gap-1 text-gray-600">
+            <li>+88 543 344 43</li>
+            <li>support@forever.com</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <hr />
+        <p className="py-5 text-sm text-center">
+          CopyRight 2025@ forever.com -All rights reserved
+        </p>
       </div>
     </div>
   );
