@@ -12,7 +12,7 @@ import About from './pages/About'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import SearchBox from './components/SearchBox.jsx'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, } from 'react-toastify';
 
 const App = () => {
   return (
